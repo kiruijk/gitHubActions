@@ -17,7 +17,7 @@ jobs:
         run: echo "Today's date is $(date) "
 
       - name: Check linux os version
-        run: cat /etc/os-release*
+        run: cat /etc/os-release* | grep PRETTY_NAME
 
         
 

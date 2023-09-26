@@ -8,6 +8,13 @@ jobs:
     steps:
       - name: Print hello world
         run: echo "Hello world !"
+  
+  todays-date:
+    name: Today's date
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print today's date
+        run: echo "Today's date is $(date) "
         
 
 

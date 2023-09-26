@@ -21,7 +21,7 @@ jobs:
 
       - name: Check node version
         run: |
-          echo 'Node version is $(node --version) \n NPM version is $(npm -v)'
+          echo 'Node version is $(node --version) '\n' NPM version is $(npm -v)'
 
           node --version
           npm --version
